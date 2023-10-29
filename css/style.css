@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+.testimonials .row1, .home .content, .home, .principal-banner, header .navb-items .item-button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials #test-title h2, .card-team h4, .form .form1 h2, .card-title2, .aboutus .row2 .right h2, .team-title h2, .principal-banner .banner-morado h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+}
+
+.team-title p, .principal-banner .banner-morado p {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.btn-fixed-bottom-right {
+  color: black;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#Reservation {
+  font-family: "Manrope", sans-serif;
+  color: white;
+  text-decoration: none;
+  height: 65px;
+  width: 250px;
+  background-color: #A72725;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  border: none;
+}
+
+#Reservation:hover {
+  background-color: #b15150;
+  color: black;
+}
+
+/*INICIO DEL HEADER*/
+header .navb-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .navb-items .item {
+  text-align: center;
+  margin-inline: 5%;
+  font-size: 18px;
+  color: #000000;
+  padding: 5px 0;
+}
+header .navb-items .item-button i {
+  margin-right: 10px;
+}
+header .navb-items .item-button a {
+  background-color: #A72725;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+header .navb-items .item-button a:hover {
+  background-color: #b15150;
+}
+
+/* FIN DEL HEADER*/
+/* INICIO DEL FOOTER*/
+footer {
+  background-color: #525275;
+  color: white;
+  font-family: "Manrope", sans-serif !important;
+}
+footer .redes {
+  justify-content: center;
+  align-items: center;
+}
+footer .redes .fb,
+footer .redes .in,
+footer .redes .wh {
+  font-size: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  border: 2px solid #ECE2D0;
+}
+footer .description {
+  text-align: justify;
+}
+
+/*BANNER MORADO ABOUT, SERVICES, CONTACT, TEAM*/
+.principal-banner {
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+  background-color: #525275;
+}
+.principal-banner .banner-morado {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  text-align: center;
+}
+.principal-banner .banner-morado h1 {
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  text-align: center;
+}
+.principal-banner .banner-morado p {
+  color: rgb(255, 255, 255);
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+}
+
+/*TITULO  DE ABOUT, SERVICES, TEAM*/
+.team-title {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.team-title h2 {
+  color: black;
+  font-weight: bold;
+}
+.team-title p {
+  color: black;
+}
+
+/*MAIN DEL INDEX*/
+.home {
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+  background: linear-gradient(to right, #ECE2D0 50%, #525275 50%);
+}
+.home .img {
+  flex: 1 1 400px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.home .img img {
+  width: 100%;
+}
+.home .content {
+  flex: 1 1 400px;
+  margin-top: 30px;
+  flex-direction: column;
+}
+.home .content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+.home .content p {
+  font-family: "Manrope", sans-serif;
+  font-size: 19px;
+  color: #000000;
+}
+.home .content p #Reservation {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card .card-body h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+}
+.card .card-body p {
+  font-family: "Manrope", sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+.card .card-body .card_button {
+  border: 2px solid #A72725;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+
+/*FIN DEL MAIN DEL INDEX*/
+/*INICIO MAIN DE ABOUT*/
+.aboutus {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #ECE2D0;
+}
+.aboutus .row2 {
+  width: 80%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px 30px;
+}
+.aboutus .row2 .left {
+  overflow: hidden;
+}
+.aboutus .row2 .left img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.aboutus .row2 .right {
+  background-color: #525275;
+  padding: 60px;
+}
+.aboutus .row2 .right h2 {
+  font-weight: lighter;
+  color: white;
+}
+.aboutus .row2 .right h3 {
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+}
+.aboutus .row2 .right p {
+  font-family: "Manrope";
+  font-size: 18px;
+  text-align: justify;
+  color: white;
+}
+
+/*FIN DEL MAIN DE ABOUT*/
+/*INICIO MAIN DE SERVICES*/
+.card-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.h-100 p {
+  line-height: 1.4em;
+}
+
+/*FIN DEL MAIN DE SERVICES*/
+/*INICIO MAIN DE CONTACT*/
+.card-title2 {
+  font-weight: lighter;
+  padding-bottom: 5px;
+}
+
+.card-subtitle {
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: 23px;
+}
+
+.card-text {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#icons {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#icons div {
+  padding-left: 5px;
+}
+#icons div h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+#icons div a {
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+/*FORMULARIO*/
+.form {
+  background-color: #ECE2D0;
+}
+.form .form1 {
+  background-color: white;
+}
+.form .form1 h2 {
+  color: black;
+  font-weight: lighter;
+}
+.form .form1 h3 {
+  font-weight: bold;
+  font-size: 43px;
+}
+.form .form1 #exampleFormControlTextarea1 {
+  resize: none;
+}
+
+/*FIN DEL MAIN DE CONTACT*/
+/*INICIO MAIN DE TEAM*/
+/* TEAM CARDS */
+.card-team h3 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+.card-team h4 {
+  text-align: center;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  padding: 40px 0;
+  color: #434343;
+  text-align: center;
+}
+.testimonials #test-title h2 {
+  font-weight: normal;
+}
+.testimonials #test-title p {
+  font-size: 45px;
+  font-weight: bold;
+}
+.testimonials .row1 {
+  flex-wrap: wrap;
+}
+.testimonials .row1 .col1 {
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+.testimonials .row1 .col1 .testimonial {
+  background: #f1f1f1;
+  padding: 30px;
+}
+.testimonials .row1 .col1 .testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.testimonials .row1 .col1 .testimonial .name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.testimonials .row1 .col1 .testimonial .stars {
+  color: #A72725;
+  margin-bottom: 20px;
+}
+
+/*FIN MAIN DE TEAM*/
+@media screen and (max-width: 800px) {
+  .home .content h3, .home .content p {
+    margin: 0 50px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .home .content h3, .home .content p {
+    margin: 0 20px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .home-section {
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 799px) and (max-width: 550px) {
+  .home-section {
+    height: 100vh;
+  }
+}
+@media (max-width: 768px) {
+  .aboutus .row2 .right {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .aboutus .row2 {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .testimonials .row1 .col1 {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .testimonials .row1 .col1 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

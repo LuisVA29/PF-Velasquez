@@ -1,0 +1,55 @@
+.home {
+    .content {
+        h3, p {
+            @media screen and (max-width: 800px) {
+                margin: 0 50px;
+            }
+
+            @media screen and (max-width: 570px) {
+                margin: 0 20px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .home-section {
+        height: map-get($alto, vh2);
+
+        @media screen and (max-width: 550px) {
+            height: map-get($alto, vh1);
+        }
+    }
+}
+
+.aboutus {
+    .row2 {
+        .right {
+            @media (max-width: 768px) {
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            width: 90%;
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+.testimonials {
+    .row1 {
+        .col1 {
+            @media screen and (max-width: 960px) {
+                flex: 100%;
+                max-width: 80%;
+            }
+
+            @media screen and (max-width: 600px) {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}
